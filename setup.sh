@@ -56,7 +56,7 @@ Exec=xfce4-terminal -e \"${HOME}/anaconda3/bin/jupyter-notebook\"
 Icon=/usr/share/icons/hicolor/256x256/apps/notebook.png
 Terminal=false
 Type=Application" | \
-sudo tee -a /usr/share/applications/notebook.desktop
+sudo tee /usr/share/applications/notebook.desktop
 echo "Hidden=true" | sudo tee -a /usr/share/applications/xfce4-terminal.desktop
 sudo update-desktop-database
 #
