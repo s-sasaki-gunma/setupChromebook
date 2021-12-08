@@ -9,6 +9,7 @@ ChromebookにおけるLinuxモードの設定スクリプト
 |setupFcitx.sh|機能別スクリプト：日本語設定（Fcitx）|
 |setupVim.sh|機能別スクリプト：エディタ設定（Vim）|
 |setupAnaconda.sh|機能別スクリプト：プログラミング環境構築（Anaconda3）|
+|setupScanSnapS300.sh|機能別スクリプト：「Scan Snap S300」のインストーラ|
 
 ## 注意事項
 - apt,wgetのコマンドを実行しているため、**ネットワーク接続を必要**とします。
